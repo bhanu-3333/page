@@ -15,7 +15,6 @@ function App() {
           <Link to="/contact">Contact</Link>
           <Link to="/services">Services</Link>
         </nav>
-
         <Routes>
           <Route path="/" element={<Counter />} />
           <Route path="/about" element={<About />} />
